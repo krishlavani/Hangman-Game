@@ -1,0 +1,135 @@
+/* Krish Lavani - 8998302 */
+
+body{
+    background-color:lightgrey;
+    color:black;
+    text-align:center;
+    font-family:'Press Start 2P';
+    margin:0;
+    padding:0;
+}
+.main,#reset{
+    text-decoration:none;
+    border:1px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+    background-color:white;
+    color:black;
+}
+
+#reset{
+    margin-bottom:20px;
+    font-family:'Press Start 2P';
+}
+
+#reset:hover{
+    background-color:black;
+    color:white;
+}
+
+#reset:active{
+    background-color:red;
+    color:white;
+}
+
+.main:hover{
+    background-color:black;
+    color:white;
+}
+
+.main:active{
+    background-color:red;
+    color:white;
+}
+
+#hangmanImage{
+    background-color:white;
+    padding:10px;
+}
+
+#home{
+    padding:100px;
+}
+
+#agemenu{
+    padding:25px;
+}
+
+#age{
+    height:30px;
+    width:auto;
+}
+
+h1{
+    text-decoration:underline;
+    line-height:2;
+}
+
+p{
+    line-height:1.5;
+}
+
+#copy{
+    padding-bottom:10px;
+}
+
+.keyboard{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    max-width:700px;
+    margin:20px auto;
+}
+
+.key{
+    background-color:white;
+    color:black;
+    font-size:1em;
+    cursor:pointer;
+    transition:background-color 0.5 ease;
+    border:none;
+    border-radius:5px;
+    padding:15px 30px;
+    margin:5px;
+    font-family:'Press Start 2P';
+}
+
+.key:hover{
+    background-color:black;
+    color:white;
+}
+
+.key:active{
+    background-color:red;
+    /*color:black;*/
+}
+
+#swapimage{
+    background-color:white;
+    padding:10px;
+    margin:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

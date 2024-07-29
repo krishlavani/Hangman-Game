@@ -1,0 +1,49 @@
+<!-- Krish Lavani - 8998302 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANG-MAN</title>
+    <!-- linking style.css file with this html file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- linking google font with this html file -->
+    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Press Start 2P">
+    <!-- linking jQuery library with this html file-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    
+    <!-- linking javascript files -->
+    <script src="./javascript/words.js"></script>
+    <script src="./javascript/script.js"></script>
+    
+    <!-- main part of the game -->
+    <div>
+        <!-- main heading for the game page -->
+        <h1>HangMan Game</h1>
+        <!-- image that show hangman attempts -->
+        <img id="hangmanImage" src="./images/step0.png" alt="Hangman">
+        <!-- paragraph that show hint of the answer -->
+        <p id="hint"></p>
+        <!-- blanks where answer of the game display -->
+        <p id="word">_ _ _ _ _</p>
+        <!-- paragraph where left attempts show -->
+        <p id="attempt">Attempts Left : 6</p>
+        <!-- win or fail message display after guess -->
+        <p id="message"></p>
+        <!-- div where all keys are displaying -->
+        <div class="keyboard" id="keyboard"></div>
+        <!-- button that reset everything on page -->
+        <button id="reset">RESET GAME</button>
+        
+        <!-- links that nav to other webpage -->
+        <nav>
+            <a class="main" href="index.html">Home</a>
+            <a class="main" href="about.html">About</a>
+        </nav>
+    </div>
+</body>
+</html>
